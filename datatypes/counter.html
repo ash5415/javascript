@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title> welcome to the javascript</title>
+</head>
+<body>
+<script src="index.js"></script>
+
+<!-- // here the document.querySelector finds the h1 and tag name and return the corresponding element name and at the end of the document query string which is 'goodbye'
+
+        //  function hello(){
+
+        // let counter=document.querySelector('h1');
+        //       //alert('hello')
+        //     // if(document.querySelector('h1').innerHTML==='Hello'){
+        //     //     document.querySelector('h1').innerHTML='Goodbye';
+        //     // }else{
+        //     //     document.querySelector('h1').innerHTML='Hello';
+        //     // }
+        //     if(counter.innerHTML==='Hello'){
+        //         counter.innerHTML='Goodbye';
+        //     }else{
+        //         counter.innerHTML='Hello';
+        //     }
+              
+        // }
+    -->
+
+    <script>
+        let count= 0;
+        function sum(){
+          count++ ;
+          document.querySelector('h2').innerHTML=count;
+
+          if(count %10 ===0){
+            alert(`counting is${count}`);
+          };
+              setInterval(count,1000);
+        }
+    </script>
+    <h1>Hello</h1>
+    <h2>0</h2>
+    <button onclick="hello()">click</button>
+    <button onclick="sum()">count</button>
+</body>
+</html>
+
+
+
+

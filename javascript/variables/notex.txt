@@ -1,0 +1,54 @@
+variable and declaring:
+=======================
+// var, let amd 
+   
+   var name ='ash';
+   console.log(name);
+
+   name='Ashok';
+   console.log(name);
+
+// Initialized variables
+
+var hello;
+console.log(hell);    // At this point you will get an error
+
+// now im storing some value to the variable
+
+    hello='Hi Ashok';
+
+    console.log(hello);     //At this point you will get the output.
+
+Note: variable taking some symbols,numbers,_,$
+
+Multiple word's variables:
+
+ var firstName='Ashok' // camel case
+
+ var first_name='Ash'  // UnderScore
+
+ var FirstName='Ash'  // Pascal case
+
+
+ // let
+
+      let and var working in the same way;
+
+example:
+        let name ='ash';
+        console.log(name);
+
+        name='Ashok';
+        console.log(name);
+
+Const:
+
+    example:
+            const name= "Ashok";
+            console.log(name);
+               
+// you can't resign 
+
+    example 2:
+            name="Ashok";   // you will get and error here.
+                

@@ -1,0 +1,129 @@
+                                           Es6 features
+
+==> var , let, const
+
+==> rest operators
+
+==> spread operator
+
+==> arrow functions
+
+==> template string
+
+==> module export / import
+
+==> javascript class
+
+==> promises
+
+==> async and wait
+
+comments:
+=========
+single line comment:  
+             // comments   single line comments.
+Multiple line comments:
+              /*
+                 Multiple 
+                 line 
+                 comments
+               */  
+
+      
+
+browser :
+==========
+
+==> you can log the  string values:
+      ex:
+      console.log('hello');
+==> you can log the  values in numbers:
+      ex:
+        console.log(123);
+==> you can log the values in boolean:
+      ex:
+        console.log(true);
+==> you can log the values in arrays:
+      ex:
+        console.log([1234]);
+==> you can log the values in objects:
+      ex:
+        console.log({a:1, b:2});
+==> you can log the values in tables:
+      ex: 
+        console.table({a:1, b:2});
+==> you can clear the console:
+     ex:
+          console.log();
+==> you can warn the console:
+     ex:
+         console.log(`this is a warning);
+==> you can set the time period:
+      ex:
+          console.time(`hello);
+          console.log('hello');
+          console.log('hello');
+          console.log('hello');
+          console.log('hello');
+          console.timeEnd('hello);
+
+variable and declaring:
+=======================
+// var, let amd 
+   
+   var name ='ash';
+   console.log(name);
+
+   name='Ashok';
+   console.log(name);
+
+// Initialized variables
+
+var hello;
+console.log(hell);    // At this point you will get an error
+
+// now im storing some value to the variable
+
+    hello='Hi Ashok';
+
+    console.log(hello);     //At this point you will get the output.
+
+Note: variable taking some symbols,numbers,_,$
+    
+functions:
+===========
+
+==> functions are fundamental building blocks of javascript.
+
+        ex:
+                 function ash(){
+                    console.log(`hi how are you?`)
+                 }
+                   ash();   // when you not calling this one your code will not be executed.
+
+==> functions declaring as a variable.
+
+       ex:
+                let myFun = function(){
+                    console.log(`hi how are you?`)
+                 }
+                   myFun(); 
+
+==> passing information to the function.
+
+            ex:
+                     let variable = function ash(meassage){
+                    console.log(meassage)
+                 }
+                   variable(hi);
+
+Note: in this case meassage parameter stores the value  "hi".   hi is the parameter.
+
+
+functional scope:
+=================
+
+==> Variables that are declared inside a function are called local variables and in the function scope. 
+    Local variables are accessible anywhere inside the function. Block scope: Variable that is declared 
+    inside a specific block & can't be accessed outside of that block.
+    

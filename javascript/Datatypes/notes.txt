@@ -1,0 +1,60 @@
+                               DataTypes
+                            ==============
+==> primitive DataTypes vs Reference DataTypes
+
+primitive DataTypes:
+
+    ==> Stored directly in he location the variable access stored on th stack.
+
+Reference DataTypes:
+  
+    ==> Accessed by Reference
+    ==> objects that are stored on the heap.
+    ==> A pointer to a location in memory.
+
+pointer DataTypes:
+         ==> number
+         ==> string
+         ==> Boolean
+         ==> Null
+         ==> Undefined
+         ==> Symbols
+
+// string:
+
+        const name= "Ash";
+        console.log(typeof name);
+
+// Number:
+
+        const Number= 45;
+        console.log(typeof Number);
+
+// Boolean:
+
+        const haskids=true;
+        console.log(typeof haskinds);
+
+// Null:
+
+        const car =null;
+
+//Symbol:
+
+        const sym = Symbol();
+
+        console.log(typeof sym);
+
+// Reference Types:
+
+        const hobbies=['movies','music'];
+        console.log(typeof hobbies);
+
+        const details={
+            name: 'Ashok',
+            city: 'melbourne',
+            job: 'developer'
+        };
+
+console.log(typeof details);
+console.log(details.city);

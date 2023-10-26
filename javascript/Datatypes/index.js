@@ -54,8 +54,8 @@ console.log(typeof val);
 
 //date to string
 
-val=String(newDate());
-console.log(typeof val);
+// val=String(newDate());
+// console.log(typeof val);
 
 // Array to string
 

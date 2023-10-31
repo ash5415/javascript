@@ -52,3 +52,36 @@ const li= document.createElement('li');
 
  console.log(li);
 
+
+
+ //  how to remove elements
+
+ const newHeading =document.createElement('h2');
+
+ // add id
+newHeading.id='task-title';
+
+//new text node
+newHeading.appendChild(document.createTextNode('Task List'));
+
+// get the old heading
+
+const oldHeading=document.getElementById('task');
+//parent
+const cardAction= document.querySelector('item');
+// replace
+cardAction.replaceChild(oldHeading, newHeading);
+
+console.log(newHeading);
+
+// remove element
+
+const lis=document.querySelectorAll('li');
+
+const list =document.querySelector('ul');
+
+// remove list item
+
+lis[0].remove();
+
+ 

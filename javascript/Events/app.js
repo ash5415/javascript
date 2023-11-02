@@ -1,61 +1,61 @@
-// document.querySelector('.clear').addEventListener('click',
-//     function(e){
-//     console.log('hello world');
-// });
+document.querySelector('.clear').addEventListener('click',
+    function(event){
+    console.log('hello world');
+});
 
-// if you want to add a name to the function 
+//if you want to add a name to the function 
 
-//   document.querySelector('.clear').addEventListener('click', onclick);
+  document.querySelector('.clear').addEventListener('click', onclick);
 
-//   function onclick(e){
-//     console.log(`${'hello World'}`);
+function onclick(e){
+    console.log(`${'hello World'}`);
 
-//     let val;
-//     val=e;
-    // // val=e.target;
-//     console.log(val);
-//   };
+    let val;
+    val=e;
+    // val=e.target;
+    console.log(val);
+};
 
-  // event type
+//event type
 
-//   val= e.type;
+  val= e.type;
 
-  // time stamp
+//time stamp
 
-//   val= e.timStamp;
+  val= e.timStamp;
 
-//   console.log(val);
+  console.log(val);
 
 
-  // mouse events
+//mouse events
 
-  //const clearBtn= document.querySelector('clear');
+  const clearBtn= document.querySelector('clear');
 
-  //const heading= document.querySelector('#id');
+  const heading= document.querySelector('#id');
 
-  // click event
+//click event
 
-  //clearBtn.addEventListener('click',runEvent);
-// double click event
-  //clearBtn.addEventListener('dblclick',runEvent);
+  clearBtn.addEventListener('click',runEvent);
+//double click event
+  clearBtn.addEventListener('dblclick',runEvent);
 
-  // mousedown event 
+//mousedown event 
 
-  //clearBtn.addEventListener('mousedown',runEvent);
+  clearBtn.addEventListener('mousedown',runEvent);
 
-  // mouseup event
-  //clearBtn.addEventListener('mouseup',runEvent);
+//mouseup event
+  clearBtn.addEventListener('mouseup',runEvent);
 
-// mousemove event
+//mousemove event
 
-//clearBtn.addEventListener('mousemove',runEvent);
+clearBtn.addEventListener('mousemove',runEvent);
 
-// event handler
-//   function runEvent(event){
-//      console.log(event);
-//   }
+//event handler
+  function runEvent(event){
+     console.log(event);
+  }
 
-// pending topics
+//pending topics
 
-// event bubbling
-// event delegation
+//event bubbling
+//event delegation

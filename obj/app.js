@@ -15,7 +15,7 @@
         this.name=name;
         this.age=age;
       }
-      let ash=new Person('arya',30);
+      let ash=new Person('aryan',30);
 
       console.log(ash.name);
       console.log(ash.age);
@@ -25,7 +25,7 @@
 
 const name1='Ash';
 
-const name2=new String('ashok');
+const name2=new String('ash');
 
 console.log(name1);
 
@@ -64,4 +64,12 @@ const array=[1,2,3,4,5,6,7,8,9];
 
 console.log(array);
 
+
+/*
+       const num2='ash';
+       const num2=new String('ash');     
+
+       console.log(num1);
+       console.log(num2);
+*/
 

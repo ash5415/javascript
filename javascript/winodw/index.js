@@ -31,7 +31,7 @@
                        val= window.outerHeight;
                        val= window.outerWidth;
 
-// if you want to check the  outer width and height of the window:
+// if you want to check the  inner width and height of the window:
 
 //example
             

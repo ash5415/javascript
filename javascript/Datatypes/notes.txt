@@ -4,7 +4,7 @@
 
 primitive DataTypes:
 
-    ==> Stored directly in he location the variable access stored on th stack.
+    ==> Stored directly in the location the variable access stored on th stack.
 
 Reference DataTypes:
   

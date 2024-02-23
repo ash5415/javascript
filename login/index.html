@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./images/javascript-illustration.png" 
+          width="500px" height="200px"/>
+
+    <div id="lpage" class="div">
+        <h1 id="heading"> Login page</h1>
+    </div>
+    </hr>
+    <p id="paragraph"></p>
+    <div class="main">
+        <form>
+            <label>FirstName:</label>
+            <input type="text" id="firstName" placeholder="name" 
+            value="Ashok" onfocus="this.style.backgroundColor='yellow'"/
+            onblur="this.style.backgroundColor='white'">
+            <br/><br/>
+
+            <label>LastName:</label>
+            <input type="text" id="lastName" placeholder="lastName" value="Velpula"/>
+            <br/><br/>
+
+            <label class="label">Login:</label>
+            <input type ="text" id ="login" name="login" placeholder="email" value="velpula-ashok@outlook.com"/>
+            <br/><br/>
+
+            <label>Password:</label>
+            <input type ="password" id ="password" name="password" placeholder="password"/>
+            <br/><br/>
+
+            <label>Country:</label>
+            <select id="Country" name="country">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="America" selected>America</option>
+            </select>
+            <br/><br/>
+
+            <button type ="submit" id ="submit" value="submit"
+              >submit</button>
+        </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>
+
+<!-- /*
+     getElementById method:
+     =======================
+        ==> the getElementById method returns a webpage element that has the id attribute same as the id value
+            specified in getElementById method.
+*/ -->

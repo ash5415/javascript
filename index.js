@@ -52,4 +52,36 @@ console.log(sai);
      console.log(years);
 
 
-     
+     function greet(){
+        return function(){
+            console.log(`hello`)
+        }
+     }
+     const result = greet();
+
+    console.log(result);
+
+
+    /**
+      passing function as argument
+     */
+
+      let birthYears = [1990,1991,1992,1993,1994];
+           console.log(birthYears);
+      function getResultArray(arr,func){
+             let result =[];
+
+             for(let i =0; i < Array.length; i++){
+                let value = func(arr[i]);
+                result.push(value);
+             }
+             return result;
+      }
+
+       function calculateAge(birthYear){
+              return 2024 - birthYear
+      }
+
+      const ages =getResultArray(birthYears,calculateAge);
+
+      console.log(ages);
